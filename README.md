@@ -1,29 +1,29 @@
 # Pickle_Unpickle_scheduling
-This repository is a demo for handling the scheduling the serialization and deserialization of an object to a pickle file
+This repository is a demo for handling the scheduling the serialization and deserialization of an object to a pickle file<br/>
 
 
-How to reproduce the error:
+# How to reproduce the error:<br/>
 
-In the terminal:
-python database_update.py
+In the terminal:<br/>
+python database_update.py<br/>
 
-In another terminal:
-python rec_service.py
+In another terminal:<br/>
+python rec_service.py<br/>
 
-You should run into an EOF Error. This happens due to the command of dump and load the same pickle file at the same time.
-
-
-Potential Solution:
-First terminal:
-python database_update.py
-Second terminal:
-python rec_service_exception_handled.py
-
-You should see the miss rate for 1000 tries
+You should run into an EOF Error. This happens due to the command of dump and load the same pickle file at the same time.<br/>
 
 
-Solution useful for integration into any project:
-First terminal:
-python database_update.py
-Second terminal:
-python rec_service_exception_handled_integrate.py
+Potential Solution:<br/>
+First terminal:<br/>
+python database_update.py<br/>
+Second terminal:<br/>
+python rec_service_exception_handled.py<br/>
+
+You should see the miss rate for 1000 tries<br/>
+
+
+Solution useful for integration into any project:<br/>
+First terminal:<br/>
+python database_update.py<br/>
+Second terminal:<br/>
+python rec_service_exception_handled_integrate.py<br/>
