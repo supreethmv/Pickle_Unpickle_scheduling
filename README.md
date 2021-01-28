@@ -13,7 +13,7 @@ python rec_service.py<br/>
 You should run into an EOF Error. This happens due to the command of dump and load the same pickle file at the same time.<br/>
 
 
-Potential Solution:<br/>
+# Potential Solution:<br/>
 First terminal:<br/>
 python database_update.py<br/>
 Second terminal:<br/>
